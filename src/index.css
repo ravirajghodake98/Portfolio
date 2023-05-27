@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+}
+.header-bg {
+    background-color: rgba(55, 71, 90, 0.9);
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+.aside-img {
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.header-main {
+    font-size: 70px;
+    margin-left: 40px;
+}
+.header-main button {
+    font-size: 40px;
+    border-color: red;
+    padding: 20px;
+    width: 350px;
+}
+.header-main button:hover {
+    background-color: red;
+    color: white;
+    transition-duration: 500ms;
+}
+.header-aside {
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.skills-card{
+    width:300px;
+    height: 300px;
+}
+.achieve-card{
+    width:500px
+}
