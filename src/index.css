@@ -3,6 +3,8 @@ body {
 }
 .header-bg {
     background-color: rgba(55, 71, 90, 0.9);
+    position: sticky;
+    top: 0px;
 }
 .nav-link a{
     text-decoration: none;
@@ -38,4 +40,18 @@ body {
 }
 .achieve-card{
     width:500px
+}
+.image-z {
+    border: 10px solid red;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: -200px;
+    z-index: 1;
+    padding: -50px;
+}
+.image-z2 {
+    margin-left: 80px;
+   
+    z-index: 0;
 }
